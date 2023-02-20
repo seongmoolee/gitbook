@@ -1,3 +1,16 @@
-# First Chapter
+# Github Pull request
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+```
+git clone 포크한레포주소
+git remote add fork 원본레포주소
+git remote -v
+git branch smlee
+git checkout smlee
+git branch
+git add .
+git commit -m "smlee"
+git push origin smlee
+Compare & pull request
+git pull 원본레포
+git branch -d smlee
+```
